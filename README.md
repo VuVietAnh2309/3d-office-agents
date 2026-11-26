@@ -20,7 +20,7 @@ The office also looks after your Mac: RAM per session, forgotten dev servers, on
 
 **Try it before you install anything.** The demo has made-up projects and needs no Claude Code: run `npm run dev` and
 open <http://localhost:4310/?demo>. Or try it online, nothing to install:
-<https://vuvietanh2309.github.io/3D_office_agents/> (a static build of the same demo, published by
+<https://vuvietanh2309.github.io/3d-office-agents/> (a static build of the same demo, published by
 `.github/workflows/pages.yml` — it needs Settings → Pages → Source: GitHub Actions turned on once).
 
 **Questions or ideas?** The community lives upstream: ask in
@@ -52,7 +52,7 @@ You need Node.js 20.9 or newer and Claude Code, on macOS, Linux or Windows. The 
 servers, cleanup) reads each system its own way; opening a session's IDE window and quitting apps are macOS only.
 
 ```bash
-git clone https://github.com/VuVietAnh2309/3D_office_agents.git && cd 3D_office_agents
+git clone https://github.com/VuVietAnh2309/3d-office-agents.git && cd 3d-office-agents
 npm install
 node bin/cli.mjs install --service   # adds the hooks to ~/.claude/settings.json and runs the office at login
 node bin/cli.mjs doctor              # checks Node, the server, every hook and the background service

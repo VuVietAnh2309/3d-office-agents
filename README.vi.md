@@ -12,7 +12,7 @@ Văn phòng chibi 3D cho thấy các session Claude Code đang làm gì, kèm b�
 > gốc chưa chỉnh sửa thì vào thẳng dự án gốc.
 
 Mở: http://localhost:4310 · Xem thử không cần Claude Code: http://localhost:4310/?demo · Xem online, không cần cài:
-https://vuvietanh2309.github.io/3D_office_agents/vi/ (cần bật một lần Settings → Pages → Source: GitHub Actions).
+https://vuvietanh2309.github.io/3d-office-agents/vi/ (cần bật một lần Settings → Pages → Source: GitHub Actions).
 
 **Có câu hỏi hay ý tưởng?** Cộng đồng nằm ở dự án gốc: hỏi ở
 [Discussions → Q&A](https://github.com/khanh020905/my-office/discussions/categories/q-a), góp ý ở
@@ -42,7 +42,7 @@ Từ mục sau trở đi là nguyên văn dự án gốc. Đây là những ch�
 ## Cài
 
 ```bash
-git clone https://github.com/VuVietAnh2309/3D_office_agents.git && cd 3D_office_agents
+git clone https://github.com/VuVietAnh2309/3d-office-agents.git && cd 3d-office-agents
 npm install
 node bin/cli.mjs install --service   # thêm hook vào ~/.claude/settings.json + chạy nền khi đăng nhập
 node bin/cli.mjs doctor              # kiểm tra Node, curl, server, đủ hook, dịch vụ nền

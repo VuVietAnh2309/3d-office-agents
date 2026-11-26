@@ -6,9 +6,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VuVietAnh2309/3D_office_agents.git"
+    "url": "https://github.com/VuVietAnh2309/3d-office-agents.git"
   },
-  "homepage": "https://github.com/VuVietAnh2309/3D_office_agents#readme",
+  "homepage": "https://github.com/VuVietAnh2309/3d-office-agents#readme",
   "type": "module",
   "bin": {
     "my-office": "bin/cli.mjs"
